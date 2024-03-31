@@ -28,7 +28,7 @@ public:
         return vehicle_apis_.findOrDefault(vehicle_name, nullptr);
     }
 
-    //world simulation API
+    // world simulation API
     virtual WorldSimApiBase* getWorldSimApi()
     {
         return world_sim_api_;
